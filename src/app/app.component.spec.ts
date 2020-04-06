@@ -72,8 +72,8 @@ describe('AppComponent', () => {
         expect(compiled.querySelector('.content span').textContent).toContain('NewQuotes app is running!');
       });
     });
-    oEqual('NewQuotes');
-  });
+  //   oEqual('NewQuotes');
+  // });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
